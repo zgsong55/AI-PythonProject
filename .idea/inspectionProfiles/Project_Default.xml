@@ -1,0 +1,82 @@
+<component name="InspectionProjectProfileManager">
+  <profile version="1.0">
+    <option name="myName" value="Project Default" />
+    <inspection_tool class="PyPackageRequirementsInspection" enabled="true" level="WARNING" enabled_by_default="true">
+      <option name="ignoredPackages">
+        <list>
+          <option value="adbc_driver_manager" />
+          <option value="adbc_driver_postgresql" />
+          <option value="adbc_driver_sqlite" />
+          <option value="AppKit" />
+          <option value="attr" />
+          <option value="beautifulsoup4" />
+          <option value="botocore" />
+          <option value="brotli" />
+          <option value="brotlicffi" />
+          <option value="chardet" />
+          <option value="checks" />
+          <option value="ConfigParser" />
+          <option value="cryptography" />
+          <option value="cycler" />
+          <option value="Cython" />
+          <option value="defusedxml" />
+          <option value="docutils" />
+          <option value="fastparquet" />
+          <option value="filelock" />
+          <option value="Foundation" />
+          <option value="fsspec" />
+          <option value="h2" />
+          <option value="HTMLParser" />
+          <option value="hypothesis" />
+          <option value="ipython" />
+          <option value="ipywidgets" />
+          <option value="jnius" />
+          <option value="js" />
+          <option value="keyring" />
+          <option value="lxml" />
+          <option value="MarkupSafe" />
+          <option value="matplotlib" />
+          <option value="mtrand" />
+          <option value="mypy" />
+          <option value="numexpr" />
+          <option value="odfpy" />
+          <option value="Pillow" />
+          <option value="protobuf" />
+          <option value="psutil" />
+          <option value="PyInstaller" />
+          <option value="pyodide" />
+          <option value="pyOpenSSL" />
+          <option value="PyQt4" />
+          <option value="PyQt5" />
+          <option value="pytest" />
+          <option value="pytest_run_parallel" />
+          <option value="python_calamine" />
+          <option value="pytz" />
+          <option value="pyxlsb" />
+          <option value="PyYAML" />
+          <option value="qtpy" />
+          <option value="redis" />
+          <option value="s3fs" />
+          <option value="scikit_learn" />
+          <option value="scipy" />
+          <option value="scipy_doctest" />
+          <option value="setuptools" />
+          <option value="simplejson" />
+          <option value="Sphinx" />
+          <option value="SQLAlchemy" />
+          <option value="tables" />
+          <option value="thread" />
+          <option value="threadpoolctl" />
+          <option value="traitlets" />
+          <option value="typing_extensions" />
+          <option value="urllib3_secure_extra" />
+          <option value="xlrd" />
+          <option value="xlsxwriter" />
+          <option value="xmlrpclib" />
+          <option value="sets" />
+          <option value="Zope2" />
+        </list>
+      </option>
+    </inspection_tool>
+  </profile>
+</component>
