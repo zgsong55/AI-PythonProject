@@ -46,13 +46,6 @@ def financial_sentiment_analysis(stats):
         label = res["label"]
         score = res["score"]
 
-        result = generator(
-            text,
-            max_length=512,
-            num_return_sequences=1,
-            pad_token_id=tokenizer.eos_token_id
-        )
-
         if label in ["4 stars", "5 stars"]:
             sentiment = "正面情感"
         elif label in ["1 star", "2 stars"]:
@@ -62,6 +55,14 @@ def financial_sentiment_analysis(stats):
 
         print(f"【{type_name}】{text}")
         print(f"    {sentiment} | 置信度：{score:.2f}")
+
+        result = generator(
+            text,
+            max_length=512,
+            num_return_sequences=1,
+            pad_token_id=tokenizer.eos_token_id
+        )
+
         print(f"    {result[0]['generated_text']}")
         print("=" * 70)
 
