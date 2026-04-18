@@ -22,12 +22,13 @@ def financial_sentiment_analysis(stats):
         device=device
     )
 
-    tokenizer = AutoTokenizer.from_pretrained("distilgpt2")
-
-    generator = pipeline("text-generation",
-                         model="distilgpt2",
-                         device=device
-                         )
+    model_name = "uer/gpt2-chinese-cluecorpussmall"
+    tokenizer = AutoTokenizer.from_pretrained(model_name)
+    generator = pipeline(
+        "text-generation",
+        model=model_name,
+        device=device
+    )
 
     type_analysis = stats['类型分析']
 
@@ -63,7 +64,7 @@ def financial_sentiment_analysis(stats):
             pad_token_id=tokenizer.eos_token_id
         )
 
-        print(f"    {result[0]['generated_text']}")
+        print(f"    生成分析：{result[0]['generated_text']}")
         print("=" * 70)
 
 
